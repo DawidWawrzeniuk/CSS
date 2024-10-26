@@ -1,0 +1,38 @@
+body
+{
+	background-color:gray;
+	font-family:Verdana;
+	font-size:20px;
+	color:white;
+}
+h1
+{
+	font-size:48px;
+	color:red!important;		/*important sprawia ze ta wartosc ma nadrzedne znaczenie dotego co jest zdefiniowane w pliku html*/
+}
+/*nieodwiedzony link*/
+a:link
+{
+	color:yellow;
+}
+/*odwiedzony link*/
+a:visited
+{
+	color:yellow;
+}
+/*link po najechaniu kursorem*/
+a:hover
+{
+	color:red;
+}
+/*
+hierarchia w css:
+1. styl wpisany(inline)
+2. styl w dokumencie
+3. styl zewnetrzny
+4. wartosc domyślna
+
+nie dziedziczymy tylko położenia obiektu
+
+
+*/
